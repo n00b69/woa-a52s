@@ -1,3 +1,6 @@
+> [!Warning]
+> THIS GUIDE IS W.I.P, DO NOT USE!!!
+
 <img align="right" src="https://github.com/n00b69/woa-a52s/blob/main/a52s.png" width="350" alt="Windows 11 running on a52sxq">
 
 # Running Windows on the Samsung Galaxy A52s
