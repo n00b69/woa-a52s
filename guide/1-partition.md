@@ -88,7 +88,7 @@ rm $
 >
 > Replace **90GB** with the end value you want **userdata** to have
 ```cmd
-mkpart userdata ext4 13.2 90GB
+mkpart userdata ext4 13.2GB 90GB
 ```
 
 #### Creating ESP partition
