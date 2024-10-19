@@ -17,7 +17,7 @@
 
 - [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.8.zip)
 
-- [Windows on ARM image](https://arkt-7.github.io/woawin/)
+- [Windows on ARM image](https://worproject.com/esd)
 
 - [Modified TWRP]() zzzzzzzzzzz
 
