@@ -9,7 +9,7 @@
 
 - [Gdisk](https://github.com/n00b69/woa-winner/releases/tag/Gdisk)
 
-- [Windows on ARM image](https://arkt-7.github.io/woawin/)
+- [Windows on ARM image](https://worproject.com/esd)
   
 - [Drivers](https://github.com/n00b69/woa-a52s/releases/tag/Drivers)
 
@@ -96,9 +96,6 @@ exit
 ```
 
 ### Installing Windows
-> [!Warning]
-> DO NOT USE 24H2!!!
-
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
 ```cmd
