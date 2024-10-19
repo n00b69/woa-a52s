@@ -4,7 +4,13 @@
 
 ## Installing Windows without a PC
 > [!Warning]
-> THIS GUIDE IS NOT YET FINISHED AND MAY NOT WORK. DO NOT USE IT UNTIL TOU SEE THIS WARNING GONE.
+> THIS GUIDE IS NOT YET FINISHED AND MAY NOT WORK. DO NOT USE IT UNTIL YOU SEE THIS WARNING GONE.
+>
+> AT BEST, IT WILL WORK
+>
+> AT WORST, YOUR DEVICE MAY BRICK
+>
+> JOIN THE [TELEGRAM CHAT](https://t.me/a52sxq_uefi) FOR FURTHER SUPPORT
 
 ### Prerequisites
 - A rooted A52s
@@ -21,7 +27,7 @@
 > [!WARNING]  
 > All your data will be erased! Back up now if needed.
 > 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woahelperchat).
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/a52sxq_uefi).
 
 > [!Important]
 > This guide assumes you have already unlocked your bootloader and are already rooted, if this is not the case, you'll still need a PC to do that.
