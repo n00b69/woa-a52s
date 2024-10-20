@@ -15,11 +15,15 @@
 ### Prerequisites
 - A rooted A52s
 
+- [Termux](https://play.google.com/store/apps/details?id=com.termux)
+
+- [Modified TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.img)
+
+- [Patched vbmeta](https://github.com/n00b69/woa-a52s/releases/download/Files/a52svbmeta.img)
+
 - [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.8.zip)
 
 - [Windows on ARM image](https://worproject.com/esd)
-
-- [Modified TWRP]() zzzzzzzzzzz
 
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
@@ -33,11 +37,36 @@
 > This guide assumes you have already unlocked your bootloader and are already rooted, if this is not the case, you'll still need a PC to do that.
 
 ### Flash the modified TWRP
-- Zzzzzzzz
+- Download **Termux** and grant it root access.
+- Download the **modified TWRP** and **patched vbmeta** files and leave them in your download folder in your internal storage.
+- In **Termux** run the below three commands seperately.
+```cmd
+su
+```
+
+```cmd
+dd if=/sdcard/Download/a52svbmeta.img of=/dev/block/by-name/vbmeta
+```
+
+```cmd
+dd if=/sdcard/Download/a52stwrp.img of=/dev/block/by-name/recovery bs=8M
+```
+
+#### Boot into the modified TWRP
+> Run this command also in Termux
+```cmd
+reboot recovery
+```
 
 #### Opening TWRP terminal
 - Once booted into TWRP press the **Advanced** button on the bottom right of the screen, then press **Terminal**.
 - Run all future commands in this terminal
+
+### Fixing GPT
+```cmd
+fix-gpt
+```
+> IDK WHAT IS AFTER THIS
 
 #### Unmount data
 ```cmd
