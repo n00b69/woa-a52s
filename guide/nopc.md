@@ -64,6 +64,7 @@ reboot recovery
 - Run all future commands in this terminal
 
 ### Fixing GPT
+> Or Windows will not boot
 ```cmd
 fix-gpt
 ```
