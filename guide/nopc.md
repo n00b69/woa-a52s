@@ -15,11 +15,9 @@
 ### Prerequisites
 - A rooted A52s
 
-- [Termux](https://play.google.com/store/apps/details?id=com.termux)
+- [Termux](https://play.google.com/store/apps/details?id=com.termux) or TWRP already installed
 
-- [Modified TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.img)
-
-- [Patched vbmeta](https://github.com/n00b69/woa-a52s/releases/download/Files/a52svbmeta.img)
+- [Modified TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.img) and [Patched vbmeta](https://github.com/n00b69/woa-a52s/releases/download/Files/a52svbmeta.img)
 
 - [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.8.zip)
 
