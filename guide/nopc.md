@@ -37,6 +37,7 @@
 > This guide assumes you have already unlocked your bootloader and are already rooted, if this is not the case, you'll still need a PC to do that.
 
 ### Flash the modified TWRP
+> If you already have a TWRP installed, you can instead also boot into TWRP and flash the modified TWRP using the **Install** button.
 - Download **Termux** and grant it root access.
 - Download the **modified TWRP** and **patched vbmeta** files and leave them in your download folder in your internal storage.
 - In **Termux** run the below three commands seperately.
@@ -53,7 +54,7 @@ dd if=/sdcard/Download/a52stwrp.img of=/dev/block/by-name/recovery bs=8M
 ```
 
 #### Boot into the modified TWRP
-> Run this command also in Termux
+> Run this command in Termux as well
 ```cmd
 reboot recovery
 ```
@@ -66,7 +67,6 @@ reboot recovery
 ```cmd
 fix-gpt
 ```
-> IDK WHAT IS AFTER THIS
 
 #### Unmount data
 ```cmd
