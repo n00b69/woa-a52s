@@ -61,7 +61,7 @@ reboot recovery
 - Once booted into TWRP press the **Advanced** button on the bottom right of the screen, then press **Terminal**.
 - Run all future commands in this terminal
 
-### Fixing GPT
+### Setting GPT online
 > Or Windows will not boot
 ```cmd
 fix-gpt
@@ -145,6 +145,10 @@ quit
 
 > [!Tip]
 > If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
+
+### Fixing GPT
+> Do this immediately after booting into Windows, if you don't, Windows may brick your device later.
+- Navigate to `C:\RUN_GPT_FIX_ASAP` and open **flash-GPT.cmd** as an administrator.
 
 #### Booting to Android
 - Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access).
