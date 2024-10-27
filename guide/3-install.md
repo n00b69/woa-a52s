@@ -29,7 +29,7 @@ adb shell msc
 
 ### Windows Disk Management
 - In your start menu, type "disk manager" and press enter.
-- Look for your phone (which should be a 512GB disk) in disk manager.
+- Look for your phone (which should be a 128GB or 256GB disk) in disk manager.
 - If it says **Offline**, right click the disk and set it to **Online**.
 
 #### Gdisk
