@@ -16,7 +16,7 @@
 ### Notes
 > [!WARNING]  
 > 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woahelperchat).
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/a52sxq_uefi).
 
 > [!Important]
 > This guide assumes you have already installed Windows. If you haven't, use the [installation guide](nopc.md) instead.
