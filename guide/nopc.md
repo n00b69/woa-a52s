@@ -3,14 +3,6 @@
 # Running Windows on the Samsung Galaxy A52s
 
 ## Installing Windows without a PC
-> [!Warning]
-> THIS GUIDE IS NOT YET FINISHED AND MAY NOT WORK. DO NOT USE IT UNTIL YOU SEE THIS WARNING GONE.
->
-> AT BEST, IT WILL WORK
->
-> AT WORST, YOUR DEVICE MAY BRICK
->
-> JOIN THE [TELEGRAM CHAT](https://t.me/a52sxq_uefi) FOR FURTHER SUPPORT
 
 ### Prerequisites
 - A rooted A52s
@@ -19,7 +11,7 @@
 
 - [Modified TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.img) and [Patched vbmeta](https://github.com/n00b69/woa-a52s/releases/download/Files/a52svbmeta.img)
 
-- [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.8.zip)
+- [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.8.1.zip)
 
 - [Windows on ARM image](https://worproject.com/esd)
 
