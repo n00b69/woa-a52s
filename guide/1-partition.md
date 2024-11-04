@@ -30,7 +30,7 @@
 - Immediately start holding the **volume up** + **volume down** buttons to enter download mode.
 - Click on **AP**, then select **a52stwrp.tar**.
 - Click on **USERDATA**, then select **a52svbmeta.tar**.
-- Click `Start` to begin flashing, then hold **volume up** + **power** right after to boot into the modded TWRP image
+- Click `Start` to begin flashing, then hold **volume up** + **power** right after to boot into the modded TWRP image.
 
 ### Opening CMD as an admin
 > Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
@@ -118,28 +118,22 @@ set $ esp on
 quit
 ```
 
-### Rebooting recovery
-> To fix partition symlinks
-```cmd
-adb reboot recovery
-```
-
-### Formatting Windows drive
-```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINA52S
-``` 
-
-### Formatting ESP drive
-```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPA52S
-```
-
 ### Formatting data
 - Format all data in TWRP, or Android will not boot.
 - ( Go to Wipe > Format data > type yes )
 
 #### Check if Android still starts
 - Just restart the phone, and see if Android still works
+
+### Formatting Windows and ESP drives
+> Reboot into TWRP, then run the below two commands
+```cmd
+adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINA52s
+``` 
+
+```cmd
+adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPA52S
+```
 
 ## [Next step: Rooting your phone](/guide/2-root.md)
 
