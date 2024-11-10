@@ -5,6 +5,13 @@
 ## Troubleshooting Issues
 > Below you will find a list of common problems and their solutions
 
+## Device has a permanent black screen
+> If this happens, you've most likely been sent into EDL mode, which is likely because of Windows 11 24H2.
+- Not only is this easily fixed, but the fix also corrects your GPT tables, so that it will not happen again.
+- To fix this issue, please use the [EDL guide](edl.md)
+
+##### Finished!
+
 ## LTE and other network services in Android no longer work
 > Sometimes Windows may wipe your modem partitions, resulting in the loss of LTE in Android. To fix this, you'll need to restore your modem using the backups that you hopefully made [while partitioning your device](1-partition.md#backing-up-important-files). If you did not do this step, there is likely no way to recover.
 - Boot into any recovery other than the stock recovery (ADB commands do not work there)
