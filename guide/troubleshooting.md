@@ -12,6 +12,14 @@
 
 ##### Finished!
 
+## Device is not recognized in fastboot or recovery
+> This likely means you don't have (proper) USB drivers installed
+- Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
+- Open Device Manager and find an unknown device or device with errors that may be called **Android**, **ADB Interface**, or **QUSB_BULK**.
+- Right click this devjce, select "Update Drivers" > "Browse files", then select the **QUD folder** you extracted before.
+
+##### Finished!
+
 ## LTE and other network services in Android no longer work
 > Sometimes Windows may wipe your modem partitions, resulting in the loss of LTE in Android. To fix this, you'll need to restore your modem using the backups that you hopefully made [while partitioning your device](1-partition.md#backing-up-important-files). If you did not do this step, there is likely no way to recover.
 - Boot into any recovery other than the stock recovery (ADB commands do not work there)
