@@ -30,28 +30,24 @@
 > If you already have a TWRP installed, you can instead also boot into TWRP and flash the modified TWRP using the **Install** button.
 - Download **Termux** and grant it root access.
 - Download the **modified TWRP** and **patched vbmeta** files and leave them in your download folder in your internal storage.
-- In **Termux** run the below three commands seperately.
+- In **Termux** run the below two commands seperately.
 ```cmd
-su
+su -c dd if=/sdcard/Download/a52svbmeta.img of=/dev/block/by-name/vbmeta
 ```
 
 ```cmd
-dd if=/sdcard/Download/a52svbmeta.img of=/dev/block/by-name/vbmeta
-```
-
-```cmd
-dd if=/sdcard/Download/a52stwrp.img of=/dev/block/by-name/recovery bs=8M
+su -c dd if=/sdcard/Download/a52stwrp.img of=/dev/block/by-name/recovery bs=8M
 ```
 
 #### Boot into the modified TWRP
 > Run this command in Termux as well
 ```cmd
-reboot recovery
+su -c reboot recovery
 ```
 
 #### Opening TWRP terminal
 - Once booted into TWRP press the **Advanced** button on the bottom right of the screen, then press **Terminal**.
-- Run all future commands in this terminal
+> Run all future commands in this terminal
 
 ### Setting GPT online
 > Or Windows will not boot
@@ -99,10 +95,8 @@ mkpart esp fat32 90GB 90.35GB
 
 #### Creating Windows partition
 > Replace **90.35GB** with the end value of **esp**
->
-> Replace **127GB** with the actual end value of your disk (if your device is the 128GB version, leave it as 127GB)
 ```cmd
-mkpart win ntfs 90.35GB 127GB
+mkpart win ntfs 90.35GB -0MB
 ```
 
 #### Making ESP bootable
