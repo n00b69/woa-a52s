@@ -23,7 +23,7 @@ This project is in early stages of development. Lots of things currently do not 
 - [ ] Microphone
 - [x] UFS
 - [x] USB ```Powered USB only```
-- [x] Wi-Fi
+- [x] Wi-Fi ```may stop working randomly```
 
 #### Sensors
 - [ ] Accelerometer
