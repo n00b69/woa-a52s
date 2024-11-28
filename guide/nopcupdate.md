@@ -11,7 +11,7 @@
 
 - TWRP or any other recovery with decryption support
 
-- [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ### Notes
 > [!WARNING]  
