@@ -10,7 +10,7 @@ This project is in early stages of development. Lots of things currently do not 
 - [ ] Audio (3.5mm)
 - [ ] Battery status
 - [x] Bluetooth
-- [ ] Brightness
+- [ ] Brightness ```requires GPU```
 - [ ] Camera
 - [x] Charging ```Appears to work, but VERY slowly. Unclear because the battery % does not work```
 - [x] Display
