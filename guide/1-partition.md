@@ -24,6 +24,11 @@
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
+> [!Warning]
+> DO NOT INSTALL WINDOWS IF YOUR A52S IS RUNNING **BIT10 FIRMWARE**
+> 
+> If your device happens to get bricked, recovery will be very expensive.
+
 ### Flash TWRP recovery
 - Download **Odin3_v3.14.4.zip** and extract the contents somewhere, then open`Odin3_v3.14.4.exe`
 - Turn off your phone, then connect it to your PC using a USB cable.
