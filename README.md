@@ -7,6 +7,7 @@
 ## ⚠️ Warning
 > [!Warning]
 > DO NOT INSTALL WINDOWS IF YOUR A52S IS RUNNING **BIT10 FIRMWARE**
+> 
 > If your device happens to get bricked, recovery will be very expensive.
 
 
