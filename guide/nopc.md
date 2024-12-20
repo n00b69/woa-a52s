@@ -61,6 +61,7 @@ fix-gpt
 ```
 
 #### Unmount data
+> Reboot back into the modified TWRP, then reopen Terminal
 ```cmd
 umount /dev/block/by-name/userdata
 ```
