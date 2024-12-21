@@ -63,12 +63,6 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 adb pull /dev/block/by-name/boot boot.img
 ```
 
-### Setting the GPT online
-> So that Windows can read it
-```cmd
-adb shell fix-gpt
-```
-
 ### Partitioning your device
 > There are two methods to partition your device. Please select the method you would like to use below. 
 
@@ -77,6 +71,11 @@ adb shell fix-gpt
 <details>
   <summary><strong>Click here for method 1</strong></summary> 
 
+### Setting the GPT online
+> So that Windows can read it
+```cmd
+adb shell fixgpt
+```
 
 #### Unmount data
 ```cmd
