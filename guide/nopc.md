@@ -11,7 +11,7 @@
 
 - [Modified TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.img) and [Patched vbmeta](https://github.com/n00b69/woa-a52s/releases/download/Files/a52svbmeta.img)
 
-- [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.8.1.zip)
+- [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.9.zip)
 
 - [Windows on ARM image](https://worproject.com/esd)
 
@@ -52,7 +52,7 @@ su -c reboot recovery
 
 #### Opening TWRP terminal
 - Once booted into TWRP press the **Advanced** button on the bottom right of the screen, then press **Terminal**.
-> Run all future commands in this terminal
+> Run the below two commands in this terminal
 
 ### Setting GPT online
 > Or Windows will not boot
@@ -70,12 +70,12 @@ partition
 
 #### Check if Android still starts
 - Just restart the phone, and see if Android still works.
-- If it doesn't, boot back into TWRP and format data.
+- If it doesn't, boot back into TWRP and format data. 
 
 ### Preparing necessary files
 - Download the Windows image and make sure it remains in the `Download` folder of your **internal storage**.
 - Download **WinInstaller.zip** and keep it in the `Download` folder as well.
-- Download and install the [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA), then open it and grant it root access. Do not do anything else inside the app yet.
+- Download and install the [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK), then open it and grant it root access. Do not do anything else inside the app yet.
 
 ### Booting into TWRP
 - Press the `Reboot to Recovery` button in the top right of Magisk again.
@@ -90,8 +90,11 @@ partition
 > If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
 
 ### Fixing GPT
+> [!Warning]
+> DO NOT SKIP THIS STEP
+
 > Do this immediately after booting into Windows, if you don't, Windows may brick your device later.
-- Navigate to `C:\RUN_GPT_FIX_ASAP` and open **flash-GPT.cmd** as an administrator.
+- Navigate to `C:\RUN-THIS-IMMEDIATELY` and open **GPTfix.cmd**.
 
 #### Booting to Android
 - Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access).
