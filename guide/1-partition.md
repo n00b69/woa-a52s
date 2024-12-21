@@ -63,14 +63,20 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 adb pull /dev/block/by-name/boot boot.img
 ```
 
-### Fixing the GPT
-> To set the disk online, so that Windows can read it
+### Setting the GPT online
+> So that Windows can read it
 ```cmd
 adb shell fix-gpt
 ```
 
-### Partitioning guide
-> Your Samsung Galaxy A52s may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
+### Partitioning your device
+> There are two methods to partition your device. Please select the method you would like to use below. 
+
+#### Method 1: Manual partitioning 
+
+<details>
+  <summary><strong>Click here for method 1</strong></summary> 
+
 
 #### Unmount data
 ```cmd
@@ -127,6 +133,15 @@ set $ esp on
 quit
 ```
 
+### Formatting Windows and ESP partitions
+```cmd
+adb shell mkfs.ntfs -f /dev/block/sda35 -L WINA52s
+``` 
+
+```cmd
+adb shell mkfs.fat -F32 -s1 /dev/block/sda35 -n ESPA52S
+```
+
 ### Formatting data
 - Format all data in TWRP, or Android will not boot.
 - ( Go to Wipe > Format data > type yes )
@@ -134,15 +149,25 @@ quit
 #### Check if Android still starts
 - Just restart the phone, and see if Android still works
 
-### Formatting Windows and ESP drives
-> Reboot into TWRP, then run the below two commands
+</details>
+
+#### Method 2: Automatic partitioning 
+
+<details>
+  <summary><strong>Click here for method 2</strong></summary> 
+
+### Run the partitioning script
+> After running the script, enter the size (in GB) that you want Windows to be
+>
+> Do not write **GB**, just the number (for example **50**)
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINA52s
+adb shell partition
 ``` 
 
-```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPA52S
-```
+### Check if Android still starts
+- Just restart the phone, and see if Android still works 
+
+</details>
 
 ## [Next step: Rooting your phone](/guide/2-root.md)
 

@@ -7,7 +7,7 @@
 ### Prerequisites
 - A Galaxy A52s with Windows already installed
 
-- [A52s DriverUpdater](https://github.com/n00b69/woa-a52s/releases/download/Files/a52sDriverUpdater.zip)
+- [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.9.zip)
 
 - TWRP or any other recovery with decryption support
 
@@ -20,14 +20,14 @@
 > This guide assumes you have already installed Windows. If you haven't, use the [installation guide](nopc.md) instead.
 
 ### Preparing necessary files
-- Download **a52sDriverUpdater.zip** and keep it in your internal storage.
+- Download **A52sWinInstaller.zip** and keep it in your internal storage.
 
 ### Reboot into TWRP
 > If you don't have TWRP installed, flash it again using [these instructions](nopc.md#flash-the-modified-twrp)
 - In the main menu of **Magisk**, press the rotating arrow icon in the top right, and press `Reboot Recovery`.
 
-### Flashing DriverUpdater
-- In TWRP, select **Install** and then locate **a52sDriverUpdater.zip** and flash it.
+### Flashing WinInstaller
+- In TWRP, select **Install** and then locate **A52sWinInstaller.zip** and flash it.
 - Once you're given the option to reboot, do so.
 > [!Note]
 > Wait untill all processes complete and your device boots back into Windows. This will take around 20-30 minutes.
