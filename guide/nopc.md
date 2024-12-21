@@ -60,66 +60,13 @@ su -c reboot recovery
 fix-gpt
 ```
 
-#### Unmount data
-> Reboot back into the modified TWRP, then reopen Terminal
-```cmd
-umount /dev/block/by-name/userdata
-```
-
-#### Preparing for partitioning
-```cmd
-parted /dev/block/sda
-```
-
-#### Printing the current partition table
-> Parted will print the list of partitions, userdata should be the last partition in the list.
-```cmd
-print
-```
-
-#### Removing userdata
-> Replace **$** with the number of the **userdata** partition, which should be **34**
-```cmd
-rm $
-```
-
-#### Recreating userdata
-> Replace **13.2GB** with the former start value of **userdata** which we just deleted
+### Run the partitioning script
+> After running the script, enter the size (in GB) that you want Windows to be
 >
-> Replace **90GB** with the end value you want **userdata** to have. In this example your available usable space in Android will be 90GB-13.2GB = 76.8GB
+> Do not write **GB**, just the number (for example **50**)
 ```cmd
-mkpart userdata ext4 13.2GB 90GB
-```
-
-#### Creating ESP partition
-> Replace **90GB** with the end value of **userdata**
->
-> Replace **90.35GB** with the value you used before, adding **0.35GB** to it
-```cmd
-mkpart esp fat32 90GB 90.35GB
-```
-
-#### Creating Windows partition
-> Replace **90.35GB** with the end value of **esp**
-```cmd
-mkpart win ntfs 90.35GB -0MB
-```
-
-#### Making ESP bootable
-> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be **35**
-```cmd
-set $ esp on
-```
-
-#### Exit parted
-```cmd
-quit
-```
-
-### Formatting data and rebooting
-- Format all data in TWRP, or Android will not boot.
-- ( Go to Wipe > Format data > type `yes` ).
-- Press the reboot button to reboot into Android.
+partition
+``` 
 
 ### Preparing necessary files
 - Download the Windows image and make sure it remains in the `Download` folder of your **internal storage**.
