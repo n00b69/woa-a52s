@@ -54,12 +54,6 @@ su -c reboot recovery
 - Once booted into TWRP press the **Advanced** button on the bottom right of the screen, then press **Terminal**.
 > Run the below two commands in this terminal
 
-### Setting GPT online
-> Or Windows will not boot
-```cmd
-fix-gpt
-```
-
 ### Run the partitioning script
 > After running the script, enter the size (in GB) that you want Windows to be
 >
