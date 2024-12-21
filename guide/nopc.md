@@ -68,6 +68,10 @@ fix-gpt
 partition
 ``` 
 
+#### Check if Android still starts
+- Just restart the phone, and see if Android still works.
+- If it doesn't, boot back into TWRP and format data.
+
 ### Preparing necessary files
 - Download the Windows image and make sure it remains in the `Download` folder of your **internal storage**.
 - Download **WinInstaller.zip** and keep it in the `Download` folder as well.
