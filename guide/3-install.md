@@ -9,8 +9,6 @@
 
 - [FFU files](https://github.com/n00b69/woa-a52s/releases/download/Files/ffu.zip)
 
-- [Gdisk](https://github.com/n00b69/woa-winner/releases/tag/Gdisk)
-
 - [Windows on ARM image](https://worproject.com/esd)
   
 - [Drivers](https://github.com/n00b69/woa-a52s/releases/tag/Drivers)
@@ -53,40 +51,6 @@ adb reboot recovery
 ```cmd
 adb shell msc
 ```
-
-### Windows Disk Management
-- In your start menu, type "disk manager" and press enter.
-- Look for your phone (which should be a 128GB or 256GB disk) in disk manager.
-- If it says **Offline**, right click the disk and set it to **Online**.
-
-#### Gdisk
-> Open **gdisk** as an admin, then run the following command in gdisk, replacing **$** with the actual number of the disk
-```cmd
-\\.\physicaldrive$
-```
-
-#### Restoring the GPT table
-> In **gdisk**, run these commands individually in this exact order.
->
-> If `y` does not work. type `yes y` instead.
-```cmd
-r
-```
-```cmd
-c
-```
-```cmd
-y
-```
-```cmd
-w
-```
-```cmd
-y
-```
-
-#### Reconnect your phone
-> Simply replug the cable
 
 ### Diskpart
 > [!WARNING]
