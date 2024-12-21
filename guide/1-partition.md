@@ -63,6 +63,12 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 adb pull /dev/block/by-name/boot boot.img
 ```
 
+### Fixing the GPT
+> To set the disk online, so that Windows can read it
+```cmd
+adb shell fix-gpt
+```
+
 ### Partitioning guide
 > Your Samsung Galaxy A52s may have different storage sizes. This guide uses the values of the 128GB model as an example. When relevant, the guide will mention if other values can or should be used.
 
@@ -91,7 +97,7 @@ rm $
 #### Recreating userdata
 > Replace **13.2GB** with the former start value of **userdata** which we just deleted
 >
-> Replace **90GB** with the end value you want **userdata** to have
+> Replace **90GB** with the end value you want **userdata** to have. In this example Android will have 90GB-13.2GB=**76.8GB** of usable storage
 ```cmd
 mkpart userdata ext4 13.2GB 90GB
 ```
@@ -106,14 +112,12 @@ mkpart esp fat32 90GB 90.3GB
 
 #### Creating Windows partition
 > Replace **90.3GB** with the end value of **esp**
->
-> Only if you have the 256GB version, replace **127GB** with the end value of your disk, use `p free` to find it
 ```cmd
-mkpart win ntfs 90.3GB 127GB
+mkpart win ntfs 90.3GB -0MB
 ```
 
 #### Making ESP bootable
-> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 35
+> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be **35**
 ```cmd
 set $ esp on
 ```
