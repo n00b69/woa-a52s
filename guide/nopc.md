@@ -77,6 +77,10 @@ partition
 
 ### Flashing WinInstaller
 - In TWRP, select **Install** and then locate **WinInstaller.zip** and flash it.
+- When the **Reboot** button appears, press it.
+> [!Important]
+> If you have any USB cables connected, disconnect them before rebooting, or the Windows installation may fail.
+
 > [!Note]
 > Wait untill all processes complete and your device boots into Windows. This will take around 15-20 minutes.
 
