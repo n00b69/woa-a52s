@@ -149,6 +149,8 @@ mountvol y: /d
 
 
 ### Reboot your device
+> [!Important]
+> Disconnect your USB cable after the device starts to reboot, or the Windows installation may fail.
 ```cmd
 adb reboot
 ```
