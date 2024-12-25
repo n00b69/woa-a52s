@@ -1,4 +1,4 @@
-# Running Windows on the Samsung Galaxy A52s
+# Running Windows on the Samsung Galaxy A52s 5G
 
 ## Installation selection
 There are three methods to install Windows. Select the method you would like to use below.
