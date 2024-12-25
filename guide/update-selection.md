@@ -1,4 +1,4 @@
-# Running Windows on the Samsung Galaxy A52s
+# Running Windows on the Samsung Galaxy A52s 5G
 
 ## Update selection
 There are two methods to update drivers. Select the method you would like to use below.
