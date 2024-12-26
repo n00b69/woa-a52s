@@ -68,6 +68,9 @@ partition
 
 ### Preparing necessary files
 - Download the Windows image and make sure it remains in the `Download` folder of your **internal storage**.
+> [!Important]
+> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
+
 > If TWRP is not able to read/decrypt your internal storage, create a folder on your **external SD card** named `WOA` and put the **.esd** file in there.
 - Download **WinInstaller.zip** and keep it in the `Download` folder as well.
 - Download and install the [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK), then open it and grant it root access. Do not do anything else inside the app yet.
