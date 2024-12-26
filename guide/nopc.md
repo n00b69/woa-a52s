@@ -102,6 +102,7 @@ partition
 - Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access).
 
 #### Booting to Windows
+> If it says "UEFI NOT FOUND", download the [UEFI image](https://github.com/n00b69/woa-a52s/releases/tag/UEFI) and place it in the `UEFI` folder in your internal storage.
 - Press **QUICKBOOT TO WINDOWS** inside the WOA Helper app, or use the newly created toggle in your quick settings panel.
 
 ## Finished!
