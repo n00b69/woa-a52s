@@ -71,12 +71,6 @@ adb pull /dev/block/by-name/boot boot.img
 <details>
   <summary><strong>Click here for method 1</strong></summary> 
 
-### Setting the GPT online
-> So that Windows can read it
-```cmd
-adb shell fixgpt
-```
-
 #### Unmount data
 ```cmd
 adb shell umount /dev/block/by-name/userdata
