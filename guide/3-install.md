@@ -43,6 +43,8 @@ diskpart
 
 #### Select the Windows volume of the phone
 > Use `list volume` to find it, replace `$` with the actual number of **WINA52S**
+>
+> If you do not see **WINA52S** in the list of volumes, reconnect your cable and check again
 ```diskpart
 select volume $
 ``` 
