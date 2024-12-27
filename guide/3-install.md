@@ -7,13 +7,9 @@
 ### Prerequisites
 - [Modded TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.tar)
 
-- [FFU files](https://github.com/n00b69/woa-a52s/releases/download/Files/ffu.zip)
-
 - [Windows on ARM image](https://worproject.com/esd)
   
 - [Drivers](https://github.com/n00b69/woa-a52s/releases/tag/Drivers)
-
-- [UEFI image](https://github.com/n00b69/woa-a52s/releases/tag/UEFI)
 
 ### Boot into TWRP
 > Hold **volume up** + **power** with the phone turned off, or with the phone turned on run
@@ -36,37 +32,6 @@ adb shell msc
 > So that Windows can read it
 ```cmd
 adb shell fix-gpt
-```
-
-### Fixing the GPT
-> [!Note]
-> By default, Samsung's GPT is not managed properly, which can cause Windows 24H2 to break the device's GPT. To fix this, a FFU file needs to be flashed.
-
-#### Booting into UFP mode
-- Download the **UEFI image** onto your phone.
-- Select **Install** > **Install Image** and then locate **a52s-uefi.img** and install it.
-- Reboot your device, then hold the **volume up** button until a QR code shows up on your screen.
-
-#### Preparing the FFU files
-- Download **ffu.zip** and extract the files located inside into your **platform-tools** folder.
-- Make sure you copy all the files directly, rather than a folder.
-
-### Flashing the FFU
-```cmd
-.\imageutility.exe FlashDevice -Path Fix_GPT_LUNs_1-5.ffu
-```
-
-#### Rebooting your device into TWRP
-> After you see a green check mark on your phone's screen
-```cmd
-.\imageutility.exe RebootDevice
-```
-- Immediately after running this command, hold **volume up** + **power** to boot back into TWRP.
-
-### Execute the msc script
-> If it asks you to run it once again, do so
-```cmd
-adb shell msc
 ```
 
 ### Diskpart
