@@ -21,6 +21,23 @@
 adb reboot recovery
 ```
 
+#### Execute the msc script
+> If it asks you to run it once again, do so
+```cmd
+adb shell msc
+```
+
+### Windows Disk Management
+- In your start menu, type "disk manager" and press enter.
+- Look for your phone (which should be a 128GB or 256GB disk) in disk manager.
+- If it says **Offline**, right click the disk and set it to **Online**.
+
+#### Setting the GPT online
+> So that Windows can read it
+```cmd
+adb shell fix-gpt
+```
+
 ### Fixing the GPT
 > [!Note]
 > By default, Samsung's GPT is not managed properly, which can cause Windows 24H2 to break the device's GPT. To fix this, a FFU file needs to be flashed.
