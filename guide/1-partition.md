@@ -157,11 +157,11 @@ quit
 
 ### Formatting Windows and ESP partitions
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/sda35 -L WINA52s
+adb shell mkfs.ntfs -f /dev/block/sda36 -L WINA52s
 ``` 
 
 ```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/sda34 -n ESPA52S
+adb shell mkfs.fat -F32 -s1 /dev/block/sda35 -n ESPA52S
 ```
 
 ### Formatting data
