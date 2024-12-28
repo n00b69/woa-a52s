@@ -7,7 +7,7 @@
 ### Prerequisites
 - A Galaxy A52s with Windows already installed
 
-- [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.9.zip)
+- [A52s WinInstaller](https://github.com/n00b69/woa-a52s/releases/download/Files/A52sWinInstaller_v6.9.1.zip)
 
 - TWRP or any other recovery with decryption support
 
@@ -33,3 +33,35 @@
 > Wait untill all processes complete and your device boots back into Windows. This will take around 20-30 minutes.
 
 ## Finished!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
