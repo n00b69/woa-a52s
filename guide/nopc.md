@@ -29,7 +29,7 @@
 > If your device happens to get bricked, recovery will be very expensive.
 
 > [!Important]
-> This guide assumes you have already unlocked your bootloader and are already rooted, if this is not the case, you'll still need a PC to do that.
+> This guide assumes you have already unlocked your bootloader and are already rooted, if this is not the case, you'll likely still need a PC to do that.
 
 ### Flash the modified TWRP
 > If you already have a TWRP installed, you can instead also boot into TWRP and flash the modified TWRP using the **Install** button.
@@ -52,7 +52,6 @@ su -c reboot recovery
 
 #### Opening TWRP terminal
 - Once booted into TWRP press the **Advanced** button on the bottom right of the screen, then press **Terminal**.
-> Run the below two commands in this terminal
 
 ### Run the partitioning script
 > After running the script, enter the size (in GB) that you want Windows to be
@@ -86,17 +85,10 @@ partition
 > If you have any USB cables connected, disconnect them before rebooting, or the Windows installation may fail.
 
 > [!Note]
-> Wait untill all processes complete and your device boots into Windows. This will take around 15-20 minutes.
+> Wait until all processes complete and your device boots into Windows. This will take around 15-20 minutes.
 
 > [!Tip]
 > If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
-
-### Fixing GPT
-> [!Warning]
-> DO NOT SKIP THIS STEP
-
-> Do this immediately after booting into Windows, if you don't, Windows may brick your device later.
-- Navigate to `C:\RUN-THIS-IMMEDIATELY` and open **GPTfix.cmd**.
 
 #### Booting to Android
 - Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access).
