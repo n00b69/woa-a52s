@@ -12,7 +12,7 @@
 ### Boot into the modded TWRP
 > Run this command while booted into Android
 >
-> If you do not have TWRP intalled, flash it again using [these instructions](1-partition.md#flash-twrp-recovery)
+> If you do not have TWRP installed, flash it again using [these instructions](1-partition.md#flash-twrp-recovery)
 ```cmd
 adb reboot recovery
 ```
