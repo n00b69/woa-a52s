@@ -18,7 +18,7 @@ adb reboot recovery
 ```
 
 ### Run the restore script
-> This will delete all your data, so back up anything beforehand if needes
+> This will delete all your data, so back up anything beforehand if needed
 ```cmd
 adb shell restore
 ```
