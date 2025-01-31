@@ -5,6 +5,21 @@
 ## Additional materials
 > Below you will find a list of tweaks and materials for Windows on your ARM device
 
+
+### Check bootloader version
+> Currently, only bootloader version 9 (BIT9) and below can be recovered for free.
+> 
+> If your device is running BIT10 firmware, it is not recommended to install Windows due to the risk of costly repairs if anything goes wrong.
+
+How to check which BIT version you have? This is very simple.
+- Go into your phone's Android settings.
+- Go to **About phone** > **Software information** and look for **Baseband version**. It will look something like **A528BXXS4EWGB**.
+- The first number near the middle after **A528...** will be the bootloader version. In this example the device would be running BIT8 firmware.
+- If you do not see a number, it is highly likely that you are on BIT10 firmware.
+
+#### Finished!
+
+
 ### List of supported apps/games
 > These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
 
