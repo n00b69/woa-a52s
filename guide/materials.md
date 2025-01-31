@@ -32,6 +32,17 @@ How to check which BIT version you have? This is very simple.
 #### Finished!
 
 
+### Set up Android boot.img auto-flashing
+> [!NOTE]
+> Set up Android boot.img auto-flashing on Windows boot or when the battery is low (<15%) to prevent the battery from dying with UEFI flashed. 
+
+- Download the **boot.img auto-flasher** [here](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher).
+- Run it, click **INSTALL** button, select when the Android boot.img should be auto-flashed (on Windows boot/Low battery) and wait for the installation to complete.
+- To uninstall the auto-flasher, ooen the **boot.img auto-flasher** again and click on **UNINSTALL**.
+
+#### Finished! 
+
+
 ### Install Microsoft Office
 - Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
 - Download the installer that fits your purposes. Make sure you select `Online x64`.
