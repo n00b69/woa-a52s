@@ -38,7 +38,7 @@ How to check which BIT version you have? This is very simple.
 
 - Download the **boot.img auto-flasher** [here](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher).
 - Run it, click **INSTALL** button, select when the Android boot.img should be auto-flashed (on Windows boot/Low battery) and wait for the installation to complete.
-- To uninstall the auto-flasher, ooen the **boot.img auto-flasher** again and click on **UNINSTALL**.
+- To uninstall the auto-flasher, open the **boot.img auto-flasher** again and click on **UNINSTALL**.
 
 #### Finished! 
 
