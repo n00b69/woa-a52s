@@ -31,7 +31,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Additional materials](guide/materials.md)
 
-- [Update drivers](guide/update-selection.md)
+- [Update drivers](guide/update.md)
 
 - [Reinstall instructions](guide/reinstall.md)
 
