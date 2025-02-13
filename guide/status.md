@@ -8,7 +8,7 @@ This project is in early stages of development. Lots of things currently do not 
 #### Features
 - [ ] Audio (Speakers)
 - [ ] Audio (3.5mm)
-- [ ] Battery status
+- [x] Battery status
 - [x] Bluetooth
 - [ ] Brightness ```requires GPU```
 - [ ] Camera
@@ -16,7 +16,7 @@ This project is in early stages of development. Lots of things currently do not 
 - [x] Display
 - [ ] Flashlight
 - [ ] GPU
-- [ ] SD card
+- [x] SD card
 - [ ] SMS
 - [x] Touchscreen
 - [ ] LTE
