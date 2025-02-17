@@ -23,7 +23,7 @@
 > 
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/a52sxq_uefi).
 
-> [!Warning]
+> [!Caution]
 > DO NOT INSTALL WINDOWS IF YOUR A52S IS RUNNING [**BIT10 FIRMWARE**](materials.md#check-bootloader-version)
 > 
 > If your device happens to get bricked, recovery will be very expensive.
