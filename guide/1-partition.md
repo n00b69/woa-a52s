@@ -28,7 +28,7 @@
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-> [!Warning]
+> [!Caution]
 > DO NOT INSTALL WINDOWS IF YOUR A52S IS RUNNING [**BIT10 FIRMWARE**](materials.md#check-bootloader-version)
 > 
 > If your device happens to get bricked, recovery will be very expensive.
