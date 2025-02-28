@@ -23,16 +23,23 @@
 > 
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/a52sxq_uefi).
 
-> [!Caution]
-> DO NOT INSTALL WINDOWS IF YOUR A52S IS RUNNING [**BIT10 FIRMWARE**](materials.md#check-bootloader-version)
-> 
-> If your device happens to get bricked, recovery will be very expensive.
-
 > [!Important]
 > This guide assumes you have already unlocked your bootloader and are already rooted, if this is not the case, you'll likely still need a PC to do that.
 
+### Updating the firmware / checking if current firmware is supported
+> Only **BIT 9** firmware is supported for the installation of Windows. If you are using **BIT 8** or lower, you must update your firmware first.
+>
+> If you are using **BIT 10**, there is currently no Windows support and you must wait until support is added.
+
+- Verify your **BIT version** using [these instructions](materials.md#check-bootloader-version)
+- If your device is already running **BIT 9 firmware**, proceed to the next step.
+- If not, update your device with **BIT 9 firmware** found at [https://samfw.com](https://samfw.com/firmware/SM-A528B). Make sure `Bit/SW REV.` is 9!
+
+> [!Caution]
+> DO NOT UPDATE YOUR DEVICE THROUGH THE BUILT IN `SOFTWARE UPDATE` FEATURE, THIS WILL LIKELY IRREVERSIBLY UPDATE YOUR FIRMWARE TO **BIT 10**
+
 ### Flash the modified TWRP
-> If you already have a TWRP installed, you can instead also boot into TWRP and flash the modified TWRP using the **Install** button.
+> If you already have a custom recovery installed, you can instead also boot into it and flash the modified TWRP using the **Install** > **Install image** button.
 - Download **Termux** and grant it root access.
 - Download the **modified TWRP** and **patched vbmeta** files and leave them in your download folder in your internal storage.
 - In **Termux** run the below two commands seperately.
