@@ -5,6 +5,8 @@
 ## Project Status
 This project is in early stages of development. Lots of things currently do not work, while they may work in the future.
 
+Windows is currently only compatible with [**BIT 9 firmware**](guide/materials.md#check-bootloader-version). Do not attempt to install Windows if you are running BIT 10 firmware.
+
 #### Features
 - [ ] Audio (Speakers)
 - [ ] Audio (3.5mm)
@@ -12,7 +14,7 @@ This project is in early stages of development. Lots of things currently do not 
 - [x] Bluetooth
 - [ ] Brightness ```requires GPU```
 - [ ] Camera
-- [x] Charging ```Appears to work, but VERY slowly```
+- [x] Charging ```VERY slow```
 - [x] Display
 - [ ] Flashlight
 - [ ] GPU
@@ -23,7 +25,7 @@ This project is in early stages of development. Lots of things currently do not 
 - [ ] Microphone
 - [x] UFS
 - [x] USB ```Powered USB only```
-- [x] Wi-Fi ```Does not work on ```[```BIT10 firmware```](https://github.com/n00b69/woa-a52s/blob/main/guide/materials.md#check-bootloader-version)
+- [x] Wi-Fi
 
 #### Sensors
 - [ ] Accelerometer
