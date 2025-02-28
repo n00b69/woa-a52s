@@ -28,13 +28,20 @@
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
+### Updating the firmware / checking if current firmware is supported
+> Only **BIT 9** firmware is supported for the installation of Windows. If you are using **BIT 8** or lower, you must update your firmware first.
+>
+> If you are using **BIT 10**, there is currently no Windows support and you must wait until support is added.
+
+- Verify your **BIT version** using [these instructions](materials.md#check-bootloader-version)
+- If your device is already running **BIT 9 firmware**, proceed to the next step.
+- If not, update your device with **BIT 9 firmware** found at [https://samfw.com](https://samfw.com/firmware/SM-A528B). Make sure `Bit/SW REV.` is 9!
+
 > [!Caution]
-> DO NOT INSTALL WINDOWS IF YOUR A52S IS RUNNING [**BIT10 FIRMWARE**](materials.md#check-bootloader-version)
-> 
-> If your device happens to get bricked, recovery will be very expensive.
+> DO NOT UPDATE YOUR DEVICE THROUGH THE BUILT IN `SOFTWARE UPDATE` FEATURE, THIS WILL LIKELY IRREVERSIBLY UPDATE YOUR FIRMWARE TO **BIT 10**
 
 ### Flash TWRP recovery
-- Download **Odin3_v3.14.4.zip** and extract the contents somewhere, then open`Odin3_v3.14.4.exe`
+- Download **Odin3_v3.14.4.zip** and extract the contents somewhere, then open `Odin3_v3.14.4.exe`
 - Turn off your phone, then connect it to your PC using a USB cable.
 - Immediately start holding the **volume up** + **volume down** buttons to enter download mode.
 - Click on **AP**, then select **a52stwrp.tar**.
