@@ -23,17 +23,6 @@ adb reboot recovery
 adb shell msc
 ```
 
-### Windows Disk Management
-- In your start menu, type "disk manager" and press enter.
-- Look for your phone (which should be a 128GB or 256GB disk) in disk manager.
-- If it says **Offline**, right click the disk and set it to **Online**.
-
-#### Setting the GPT online
-> So that Windows can read it
-```cmd
-adb shell fix-gpt
-```
-
 ### Diskpart
 > [!WARNING]
 > DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for flashing it with [EDL](edl.md))
