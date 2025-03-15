@@ -79,6 +79,7 @@ adb pull /dev/block/by-name/boot boot.img
 - Reboot your device, then hold the **volume up** button until a QR code shows up on your screen.
 
 ### Flashing the FFU
+> To correct the device's GPT so that Windows can boot without issues
 - Download **ffu.zip** and extract the files somewhere, then open `FlashFFU.cmd`.
 
 #### Rebooting your device into TWRP
