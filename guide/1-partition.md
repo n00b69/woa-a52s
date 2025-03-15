@@ -81,9 +81,6 @@ adb pull /dev/block/by-name/boot boot.img
 ### Flashing the FFU
 > To correct the device's GPT so that Windows can boot without issues
 - Download **ffu.zip** and extract the files somewhere, then open `FlashFFU.cmd`.
-
-#### Rebooting your device into TWRP
-- After you see a green check mark on your phone's screen, open `Reboot.cmd`.
 - Immediately after doing so, hold **volume up** + **power** to boot back into TWRP.
 
 ### Restoring your boot.img
