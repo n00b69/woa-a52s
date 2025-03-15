@@ -11,9 +11,7 @@
   
 - [Odin](https://github.com/n00b69/woa-a52s/releases/download/Files/Odin3_v3.14.4.zip)
   
-- [Modded TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.tar)
-
-- [Patched vbmeta](https://github.com/n00b69/woa-a52s/releases/download/Files/a52svbmeta.tar)
+- [Modded TWRP](https://github.com/n00b69/woa-a52s/releases/tag/Recovery)
 
 - [FFU files](https://github.com/n00b69/woa-a52s/releases/download/Files/ffu.zip)
 
@@ -41,6 +39,7 @@
 > DO NOT UPDATE YOUR DEVICE THROUGH THE BUILT IN `SOFTWARE UPDATE` FEATURE, THIS WILL LIKELY IRREVERSIBLY UPDATE YOUR FIRMWARE TO **BIT 10**
 
 ### Flash TWRP recovery
+> If you already have TWRP or any other custom recovery installed, you can instead download `a52stwrp.img` and install it using the `Install image` function
 - Download **Odin3_v3.14.4.zip** and extract the contents somewhere, then open `Odin3_v3.14.4.exe`
 - Turn off your phone, then connect it to your PC using a USB cable.
 - Immediately start holding the **volume up** + **volume down** buttons to enter download mode.
