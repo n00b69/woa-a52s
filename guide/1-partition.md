@@ -73,30 +73,17 @@ cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-
 adb pull /dev/block/by-name/boot boot.img
 ```
 
-### Fixing the GPT
-> [!Note]
-> By default, Samsung's GPT is not managed properly, which can cause Windows 24H2 to break the device's GPT. To fix this, a FFU file needs to be flashed.
-
-#### Booting into UFP mode
-- Download the **UEFI image** onto your phone.
+### Booting into UFP mode
+- Download the **UEFI image** and move it onto your phone.
 - Select **Install** > **Install Image** and then locate **a52s-uefi.img** and install it.
 - Reboot your device, then hold the **volume up** button until a QR code shows up on your screen.
 
-#### Preparing the FFU files
-- Download **ffu.zip** and extract the files located inside into your **platform-tools** folder.
-- Make sure you copy all the files directly, rather than a folder.
-
 ### Flashing the FFU
-```cmd
-.\imageutility.exe FlashDevice -Path Fix_GPT_LUNs_1-5.ffu
-```
+- Download **ffu.zip** and extract the files somewhere, then open `FlashFFU.cmd`.
 
 #### Rebooting your device into TWRP
-> After you see a green check mark on your phone's screen
-```cmd
-.\imageutility.exe RebootDevice
-```
-- Immediately after running this command, hold **volume up** + **power** to boot back into TWRP.
+- After you see a green check mark on your phone's screen, open `Reboot.cmd`.
+- Immediately after doing so, hold **volume up** + **power** to boot back into TWRP.
 
 ### Partitioning your device
 > There are two methods to partition your device. Please select the method you would like to use below. 
