@@ -96,14 +96,18 @@ adb pull /dev/block/by-name/boot boot.img
 <details>
   <summary><strong>Click here for method 1</strong></summary> 
 
-#### Unmount data
+#### Opening a shell
 ```cmd
-adb shell umount /dev/block/by-name/userdata
+adb shell
 ```
 
-#### Preparing for partitioning
+### Preparing for partitioning
+> [!Note]
+> If at any moment in parted you see an error prompting you to type "Yes/No" or "Ignore/Cancel", type `Yes` or `Ignore` depending on the situation to ignore the errors and continue.
+>
+> If you see any **udevadm** errors, you can ignore these as well.
 ```cmd
-adb shell parted /dev/block/sda
+parted /dev/block/sda
 ```
 
 #### Printing the current partition table
