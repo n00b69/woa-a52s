@@ -5,7 +5,7 @@
 ## Installing Windows
 
 ### Prerequisites
-- [Modded TWRP](https://github.com/n00b69/woa-a52s/releases/download/Files/a52stwrp.tar)
+- [Modded TWRP](https://github.com/n00b69/woa-a52s/releases/tag/Recovery)
 
 - [Windows on ARM image](https://worproject.com/esd)
   
