@@ -85,6 +85,11 @@ adb pull /dev/block/by-name/boot boot.img
 - After you see a green check mark on your phone's screen, open `Reboot.cmd`.
 - Immediately after doing so, hold **volume up** + **power** to boot back into TWRP.
 
+### Restoring your boot.img
+> So that Android can boot
+- Move the **boot.img** file located in your `platform-tools` folder onto your phone.
+- Select **Install** > **Install Image** and then locate **boot.img** and install it.
+
 ### Partitioning your device
 > There are two methods to partition your device. Please select the method you would like to use below. 
 
