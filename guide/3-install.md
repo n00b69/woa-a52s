@@ -83,36 +83,28 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```
 
 #### Enabling test signing
+> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
 #### Disabling recovery
+> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 ```
 
 #### Disabling integrity checks
+> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
 #### Disabling failure checks
+> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" bootstatuspolicy IgnoreAllFailures
 ```
-
-### Removing Windows recovery
-> [!WARNING]
->
-> If your phone enters Windows [recovery mode](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference?view=windows-11), it will damage your UFS and permanently brick the device!
->
-> This issue only occurs on Samsung devices running Windows.
-- Navigate to `X:\Windows\System32\Recovery\` and delete **WinRE.wim**.
-- Navigate to `X:\Windows\System32`, find **autochk.exe**, and right click on it.
-- Click on `Properties` > `Security` > `Advanced` > `Owner change` > **(Enter your PC username)**.
-- Click `Add` > `Select a principal` > **(Enter your username)** > Check `"Full control"` under basic permissions.
-- Now delete **autochk.exe** in `X:\Windows\System32\`.
 
 #### Remove the drive letter for ESP
 > If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
