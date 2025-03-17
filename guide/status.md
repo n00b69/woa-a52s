@@ -5,8 +5,6 @@
 ## Project Status
 This project is in early stages of development. Lots of things currently do not work, while they may work in the future.
 
-Windows is currently only compatible with [**BIT 9 firmware**](guide/materials.md#check-bootloader-version). Do not attempt to install Windows if you are running BIT 10 firmware.
-
 #### Features
 - [ ] Audio (Speakers)
 - [ ] Audio (3.5mm)
@@ -14,7 +12,7 @@ Windows is currently only compatible with [**BIT 9 firmware**](guide/materials.m
 - [x] Bluetooth
 - [ ] Brightness ```requires GPU```
 - [ ] Camera
-- [x] Charging ```VERY slow```
+- [x] Charging ```working on BIT 10 only```
 - [x] Display
 - [ ] Flashlight
 - [ ] GPU
@@ -28,13 +26,13 @@ Windows is currently only compatible with [**BIT 9 firmware**](guide/materials.m
 - [x] Wi-Fi
 
 #### Sensors
-- [ ] Accelerometer
-- [ ] Fingerprint
-- [x] GPS
-- [ ] Gyroscope
+- [x] Accelerometer ```working on BIT 10 only```
+- [x] Fingerprint ```working on BIT 10 only```
+- [x] GPS ```working on BIT 10 only```
+- [x] Gyroscope ```working on BIT 10 only```
 - [ ] Light sensor
-- [ ] Magnetometer
-- [ ] Proximity
+- [x] Magnetometer ```working on BIT 10 only```
+- [x] Proximity ```working on BIT 10 only```
 
 
 
