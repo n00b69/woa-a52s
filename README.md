@@ -5,12 +5,6 @@
 
 
 ## ⚠️ Warning
-> [!Caution]
-> DO NOT INSTALL WINDOWS IF YOUR A52S IS RUNNING [**BIT10 FIRMWARE**](guide/materials.md#check-bootloader-version)
-> 
-> If your device happens to get bricked, recovery will be very expensive.
-
-
 We're not responsible for bricked devices, missing recovery partitions, dead samsung factoryline ~~workers~~ cowboys, dead pmics, dead ram, dead sim cards, dead display ics, dead cpus, any samsung shenanigans, exploding batteries, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
 This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
