@@ -27,16 +27,14 @@
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
 ### Updating the firmware / checking if current firmware is supported
-> Only **BIT 9** firmware is supported for the installation of Windows. If you are using **BIT 8** or lower, you must update your firmware first.
+> Only **BIT 9** and **BIT 10** firmware is supported for the installation of Windows. If you are using **BIT 8** or lower, you must update your firmware first.
 >
-> If you are using **BIT 10**, there is currently no Windows support and you must wait until support is added.
+> **BIT 9** is currently EoL and will not receive further Windows related updates, however, if your device gets bricked while using BIT 9, restoring it will be free and easy. If your device gets bricked while using BIT 10 firmware, recovery may be impossible
 
 - Verify your **BIT version** using [these instructions](materials.md#check-bootloader-version)
 - If your device is already running **BIT 9 firmware**, proceed to the next step.
 - If not, update your device with **BIT 9 firmware** found at [https://samfw.com](https://samfw.com/firmware/SM-A528B). Make sure `Bit/SW REV.` is 9!
-
-> [!Caution]
-> DO NOT UPDATE YOUR DEVICE THROUGH THE BUILT IN `SOFTWARE UPDATE` FEATURE, THIS WILL LIKELY IRREVERSIBLY UPDATE YOUR FIRMWARE TO **BIT 10**
+- If you accept the risks and want a better Windows experience, you can instead update to **BIT 10** (listed as `Bit/SW REV.` version **A**).
 
 ### Flash TWRP recovery
 > If you already have TWRP or any other custom recovery installed, you can instead download `a52stwrp.img` and install it using the `Install image` function
