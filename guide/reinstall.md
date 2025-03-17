@@ -9,6 +9,9 @@
 
 - [Modded TWRP](https://github.com/n00b69/woa-a52s/releases/tag/Recovery) (should already be installed)
 
+> [!Caution]
+> If you are reinstalling Windows and you previously installed a driver release older than **v1.0.2**, you must restart the guide from scratch by flashing a new GPT using [the flash FFU instructions in the partitioning guide](1-partition.md#booting-into-ufp-mode)
+
 ### Opening CMD as an admin
 > Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
 >
