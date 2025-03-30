@@ -73,7 +73,7 @@ adb pull /dev/block/by-name/boot boot.img
 
 ### Booting into UFP mode
 - Download the **UEFI image** and move it onto your phone.
-- Select **Install** > **Install Image** and then locate **a52s-uefi.img** and install it.
+- Select **Install** > **Install Image** and then locate **a52s-uefi.img** and install it into the `boot` partition.
 - Reboot your device, then hold the **volume up** button until a QR code shows up on your screen.
 
 ### Flashing the FFU
