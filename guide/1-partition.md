@@ -114,14 +114,29 @@ parted /dev/block/sda
 print
 ```
 
+#### Resizing keyrefuge
+> [!Note]
+> Do this only if the **keyrefuge** partition is larger than `55MB` and you do not see a **userdata** partition, else skip to "Removing userdata".
+
+> Replace **$** with the number of the **keyrefuge** partition, which should be **33**
+```cmd
+resizepart 33
+```
+```cmd
+13229MB
+```
+
 #### Removing userdata
+> [!Note]
+> If you just resized the **keyrefuge** partition, skip to "Recreating userdata".
+
 > Replace **$** with the number of the **userdata** partition, which should be **34**
 ```cmd
 rm $
 ```
 
 #### Recreating userdata
-> Replace **13.2GB** with the former start value of **userdata** which we just deleted
+> Replace **13.2GB** with the former start value of **userdata** which we just deleted (it should be **13.2GB**)
 >
 > Replace **90GB** with the end value you want **userdata** to have. In this example Android will have 90GB-13.2GB=**76.8GB** of usable storage
 ```cmd
