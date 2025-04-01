@@ -114,22 +114,7 @@ parted /dev/block/sda
 print
 ```
 
-#### Resizing keyrefuge
-> [!Note]
-> Do this only if the **keyrefuge** partition is larger than `55MB` and you do not see a **userdata** partition, else skip to "Removing userdata".
-
-> Replace **$** with the number of the **keyrefuge** partition, which should be **33**
-```cmd
-resizepart 33
-```
-```cmd
-13229MB
-```
-
 #### Removing userdata
-> [!Note]
-> If you just resized the **keyrefuge** partition, skip to "Recreating userdata".
-
 > Replace **$** with the number of the **userdata** partition, which should be **34**
 ```cmd
 rm $
