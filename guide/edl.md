@@ -8,7 +8,7 @@
 ### Prerequisites
 - [Qfil](https://github.com/n00b69/woa-betalm/releases/tag/Qfil)
 
-- [A52s firehose](https://github.com/n00b69/woa-a52s/releases/download/Files/a52s_firehose_bit9.elf) (Thanks to [Arminas](https://github.com/arminask) 🙏)
+- [A52s firehose](https://github.com/n00b69/woa-a52s/releases/download/Files/a52s_firehose_bit10.elf)
 
 - [A52s GPT backups](https://github.com/n00b69/woa-a52s/releases/download/Files/a52s_GPT.zip)
 
