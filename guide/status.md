@@ -12,7 +12,7 @@ This project is in early stages of development. Lots of things currently do not 
 - [x] Bluetooth
 - [ ] Brightness ```requires GPU```
 - [ ] Camera
-- [x] Charging ```working on BIT 10 only```
+- [x] Charging
 - [x] Display
 - [ ] Flashlight
 - [ ] GPU
@@ -26,13 +26,13 @@ This project is in early stages of development. Lots of things currently do not 
 - [x] Wi-Fi
 
 #### Sensors
-- [x] Accelerometer ```working on BIT 10 only```
-- [x] Fingerprint ```working on BIT 10 only```
-- [x] GPS ```working on BIT 10 only```
-- [x] Gyroscope ```working on BIT 10 only```
+- [x] Accelerometer
+- [x] Fingerprint
+- [x] GPS
+- [x] Gyroscope
 - [ ] Light sensor
-- [x] Magnetometer ```working on BIT 10 only```
-- [x] Proximity ```working on BIT 10 only```
+- [x] Magnetometer
+- [x] Proximity
 
 
 
