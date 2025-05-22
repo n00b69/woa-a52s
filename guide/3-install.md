@@ -82,30 +82,6 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Enabling test signing
-> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
-```
-
-#### Disabling recovery
-> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
-```
-
-#### Disabling integrity checks
-> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
-```
-
-#### Disabling failure checks
-> Do not run this command if you are using **BIT 10 firmware** and **Drivers/UEFI v1.0.2***
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" bootstatuspolicy IgnoreAllFailures
-```
-
 #### Remove the drive letter for ESP
 > If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
 ```cmd
