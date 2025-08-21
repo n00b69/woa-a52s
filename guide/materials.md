@@ -12,7 +12,7 @@ How to check which BIT version you have? This is very simple.
 - Go into your phone's Android settings.
 - Go to **About phone** > **Software information** and look for **Baseband version**. It will look something like **A528BXXS4EWGB**.
 - The first number near the middle after **A528...** will be the bootloader version. In this example the device would be running BIT4 firmware.
-- The numbers go up to 9, after which they start to use letters. BIT10 uses the letter **A**.
+- The numbers go up to 9, after which they start to use letters. BIT11 uses the letter **B**.
 
 #### Finished!
 
