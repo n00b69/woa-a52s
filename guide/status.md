@@ -17,12 +17,13 @@ This project is in early stages of development. Lots of things currently do not 
 - [ ] Flashlight
 - [ ] GPU
 - [x] SD card
-- [ ] SMS
+- [x] SMS ```Does not work for everyone```
 - [x] Touchscreen
-- [ ] LTE
+- [x] LTE ```Does not work for everyone```
 - [ ] Microphone
 - [x] UFS
 - [x] USB ```Powered USB only```
+- [x] Vibration
 - [x] Wi-Fi
 
 #### Sensors
